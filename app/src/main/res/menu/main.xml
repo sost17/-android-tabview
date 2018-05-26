@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jacksen.drawerlayout.demo.MainActivity" >
+
+    <item
+        android:id="@+id/action_websearch"
+        android:icon="@mipmap/action_search"
+        android:title="@string/action_websearch"/>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabView">
+        <attr name="tv_Tab_Height" format="dimension" />
+        <attr name="tv_Tab_Select_Title_Color" format="color" />
+        <attr name="tv_Tab_Selected_Title_Color" format="color" />
+        <attr name="tv_Tab_Title_Size" format="dimension" />
+        <attr name="tv_Tab_Img_Width" format="dimension" />
+        <attr name="tv_Tab_Img_Height" format="dimension" />
+        <attr name="tv_Tab_Transverse_Line_Height" format="dimension" />
+        <attr name="tv_Tab_Transverse_Line_Color" format="color" />
+        <attr name="tv_Tab_Icon_Title_Space" format="dimension" />
+        <attr name="tv_Tab_Show_Cursor" format="boolean" />
+        <attr name="tv_Tab_Show_Cursor_Color" format="color" />
+        <attr name="tv_Tab_Location" format="integer">
+            <flag name="TAB_LOCATION_TOP" value="2" />
+            <flag name="TAB_LOCATION_BOTTOM" value="1" />
+        </attr>
+        <attr name="tv_Tab_Show_Icon_Title" format="integer">
+            <flag name="SHOW_ICON_AND_TITLE" value="30" />
+            <flag name="SHOW_ICON" value="31" />
+            <flag name="SHOW_TITLE" value="32" />
+        </attr>
+        <!--是否可滚动-->
+        <attr name="tv_ViewPage_Scrollable" format="boolean" />
+        <attr name="tv_Tab_Select_Background_Color" format="color" />
+        <attr name="tv_Tab_Selected_Background_Color" format="color" />
+        <attr name="tv_Tab_Select_TextView_Color" format="color" />
+        <attr name="tv_Tab_Selected_TextView_Color" format="color" />
+    </declare-styleable>
+</resources>

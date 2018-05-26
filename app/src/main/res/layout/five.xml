@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <sms.edward.per.myapplication.TabView
+        android:id="@+id/tab_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        test:tv_Tab_Location="TAB_LOCATION_TOP"
+        test:tv_Tab_Show_Cursor="true"
+        test:tv_Tab_Transverse_Line_Height="2dp"
+        test:tv_Tab_Show_Icon_Title="SHOW_ICON"
+        test:tv_Tab_Selected_Background_Color="@color/red"
+        test:tv_Tab_Title_Size="18dp"
+        test:tv_Tab_Height="30dp"/>
+</LinearLayout>
